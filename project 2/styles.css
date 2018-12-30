@@ -1,0 +1,120 @@
+/* =================================
+  Base Element Styles
+==================================== */
+body  {
+background: linear-gradient(to bottom, #F2F4F4 15%,white 18.5%,white 94.8%, #F2F4F4 50%); /* W3C */
+}
+.name {
+  text-align: left;
+}
+
+.container{
+  flex
+}
+
+div.nav a{
+display: inline;
+color: #000000;
+padding: 14px 16px;
+text-decoration: none;
+float: right;
+font-weight: bold;
+}
+
+img {
+  float: right;
+  padding-top: 90px;
+  margin-left: 100px;
+
+}
+
+p{
+float: left;
+
+}
+
+.word {
+    text-transform: uppercase;
+    text-align: center;
+
+
+}
+.bgimg{
+  display: block;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+
+}
+.imgstyle{
+	width:86%;
+	height:100%;
+  padding-bottom: 20px;
+  margin: 20px;
+
+}
+.market{
+  text-align: center;
+
+}
+
+.design{
+  text-align: center;
+  margin-bottom:25%;
+}
+
+.info{
+  float: none;
+}
+/*=======================================
+      media set up
+========================================= */
+@media screen and (min-width: 454px) {
+  .nav  a{
+    overflow: hidden;
+    background-color: #fff;
+    border-bottom: inset;
+    text-align: center;
+    float: none;
+    width: 100%;
+  }
+  .name {
+    text-align: center;
+  }
+  img {
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 50px;
+   margin-right: 50px;
+  }
+  div .footer p{
+    font-weight: bold;
+  }
+.top {
+    float: right;
+ }
+}
+
+@media screen and (min-width: 768px ) {
+  div .footer p{
+    font-weight: normal;
+  }
+  .name{
+    text-align: center;
+  }
+  .word {
+    margin-top:150px;
+  }
+  .nav{
+    float: none;
+    margin: 150px;
+  }
+  .imgstyle{
+    width: 150px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 50px;
+   margin-right: 50px;
+  }
+}
